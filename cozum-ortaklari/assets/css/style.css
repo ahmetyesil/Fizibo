@@ -1,0 +1,93 @@
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.panel {
+  border-radius: 2px;
+}
+
+.panel-heading {
+  background: #fff !important;
+  border-radius: 2px !important;
+}
+
+.panel-heading h4 {
+  font-weight: 600;
+}
+
+.panel.page-sidemenu a {
+  color: #9a9a9a;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.panel.page-sidemenu a i {
+  margin-right: 10px;
+}
+
+.btn-trq {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  padding: 0;
+  background-color: #37c5d1;
+  color: #ffffff;
+}
+
+.col-xs-42 a {
+  text-decoration: none;
+  color: #37c5d1;
+}
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.fw-600-fs-l {
+  font-weight: 600;
+  font-size: larger;
+}
+
+.nav > li > a {
+  color: #37c5d1;
+  border-color: transparent !important;
+  border-width: 1px 1px 2px 1px !important;
+  font-size: 16px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: transparent !important;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  background-color: #fff !important;
+  border-color: #37c5d1 !important;
+  border-width: 0 0 2px 0 !important;
+  color: #37c5d1;
+  cursor: default;
+}
+
+@media only screen and (max-width: 548px) {
+  .nav>li>a{
+    padding-left:5px !important;
+    padding-right:5px !important;
+    font-size:12px !important
+  }
+}
+
+.user-card {
+
+}
