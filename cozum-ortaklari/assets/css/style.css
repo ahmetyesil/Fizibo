@@ -51,6 +51,7 @@
   text-decoration: none;
   color: #37c5d1;
 }
+
 .ml-1 {
   margin-left: 1rem;
 }
@@ -81,13 +82,30 @@
 }
 
 @media only screen and (max-width: 548px) {
-  .nav>li>a{
-    padding-left:5px !important;
-    padding-right:5px !important;
-    font-size:12px !important
+  .nav > li > a {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    font-size: 12px !important
   }
 }
 
 .user-card {
 
+}
+
+.badge-green {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green !important;
+  margin-left: 35%;
+  margin-bottom: -15%;
+}
+
+.list-group-item:hover {
+  background-color: #D3D3D3;
+}
+
+.text-reject {
+  color: red !important;
 }
