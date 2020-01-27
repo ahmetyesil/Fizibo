@@ -1,0 +1,90 @@
+.panel {
+    border: 1px solid #eceef0;
+}
+
+.headerForAdvantage {
+    margin-top: 32px;
+    background-color: #e1e4e9;
+    color: #1b4ca3;
+}
+
+.advantages {
+    text-align: justify !important;
+}
+
+.outer-round {
+    background-color: #347ab8;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    position: relative;
+}
+
+.inner-round {
+    color: white;
+    font-size: 30px;
+    top: 9px;
+    position: relative;
+}
+
+.text-trq {
+    color: #37c5d1;
+}
+
+.reference-box {
+    background-color: #f5f5f5;
+    border: 1px solid #dcdcdc;
+}
+
+.panel-rounded-header {
+    border: 1px solid #eceef0;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    padding-top: 15px;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    background-color: white;
+}
+
+.col-xs-7 {
+    margin-top: 20px;
+}
+
+.card-group {
+    overflow: auto;
+    margin-top: 96px;
+}
+
+.card {
+    position: relative;
+}
+
+.panel-body > p {
+    font-size: 16px;
+    margin-top: 38px;
+}
+
+.bg-yellow {
+    color: orange;
+    font-size: 60px;
+}
+
+
+.card > .panel > .panel-body {
+    margin-top: 15px;
+}
+
+.card > .panel-rounded-header > p {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: auto;
+}
+
+.forRelative {
+    position: relative;
+    z-index: 1;
+    top: -30px;
+}
+
