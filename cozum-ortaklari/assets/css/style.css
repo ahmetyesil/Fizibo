@@ -23,6 +23,12 @@
   border-radius: 2px !important;
 }
 
+.panel-heading  .panel-title{
+  font-size: 15px;
+  font-weight: 600;
+  color: #9a9a9a;
+}
+
 .panel-heading h4 {
   font-weight: 600;
 }
@@ -32,6 +38,21 @@
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
+}
+
+.panel.page-sidemenu .list-group-item{
+  padding: 0;
+}
+
+.panel.page-sidemenu .list-group-item a {
+  transition: background-color .4s linear;
+  display: block;
+  padding: 9px 15px;
+}
+
+.panel.page-sidemenu .list-group-item.active a,
+.panel.page-sidemenu .list-group-item a:hover {
+  background-color: #f7f7f7;
 }
 
 .panel.page-sidemenu a i {
@@ -93,6 +114,22 @@
 
 }
 
+.user-card .user-img {
+
+}
+
+.user-card .user-img .user-img-container{
+  position: relative;
+  width: 116px;
+  height: 116px;
+  margin:0 auto;
+}
+
+.user-card .user-img .user-img-container img{
+  width: 100%;
+}
+
+
 .badge-green {
   width: 20px;
   height: 20px;
@@ -102,10 +139,37 @@
   margin-bottom: -15%;
 }
 
-.list-group-item:hover {
-  background-color: #D3D3D3;
-}
-
 .text-reject {
   color: red !important;
+}
+
+
+ .online-badge,
+.offline-badge {
+   position: absolute;
+   right: 5px;
+   top: 8px;
+   font-size: 15px;
+}
+
+.online-badge {
+  color: green;
+}
+
+.offline-badge {
+  color: #f3f3f3;
+}
+
+
+.tab-filter{
+  text-align: right;
+}
+
+.tab-filter ul li a{
+  color: #9a9a9a;
+  font-weight: 500;
+}
+
+.tab-filter ul li.active a{
+  color: #37c5d1;
 }
