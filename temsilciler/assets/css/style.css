@@ -104,25 +104,17 @@
 .repres-card {
     border: 1px solid #f3f3f3;
     position: relative;
-<<<<<<< HEAD
-    overflow: auto;
+    height: 380px;
+    margin-bottom: 100px;
 }
 .ml-10px {
     margin-left: 8px;
 }
 .mb-50px {
-    margin-bottom: 50px;
 }
 .img-border {
-    position: relative;
-    top: -50px;
-=======
-}
-
-.img-border {
-    position: relative;
-    top: 16px;
->>>>>>> d5a7f00c3376a85ae8d5f81b14178d57f07bc4b1
+    position: absolute;
+    bottom: -90px;
 }
 
 .badge-green {
