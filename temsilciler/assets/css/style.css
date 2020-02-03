@@ -104,6 +104,7 @@
 .repres-card {
     border: 1px solid #f3f3f3;
     position: relative;
+<<<<<<< HEAD
     overflow: auto;
 }
 .ml-10px {
@@ -115,6 +116,13 @@
 .img-border {
     position: relative;
     top: -50px;
+=======
+}
+
+.img-border {
+    position: relative;
+    top: 16px;
+>>>>>>> d5a7f00c3376a85ae8d5f81b14178d57f07bc4b1
 }
 
 .badge-green {
