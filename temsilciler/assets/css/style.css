@@ -1,3 +1,10 @@
+.panel:first-child {
+    border: transparent;
+}
+
+
+
+
 .mt-1 {
     margin-top: 1rem;
 }
@@ -114,7 +121,22 @@
 }
 .img-border {
     position: absolute;
-    bottom: -90px;
+    bottom: -80px;
+}
+
+hr {
+    background-color : #e8e9eb;
+    height: 4px;
+}
+
+.fizibo-divider {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.bottom-bg {
+    background-color: #f5f6f8;
 }
 
 .badge-green {
@@ -139,7 +161,6 @@
 }
 
 .sss {
-    background-color: #f5f6f8;
     text-align: justify;
 }
 
@@ -147,7 +168,29 @@ strong {
   color: #5e5f64;
 }
 
+.border {
+    background-color: #e6e7e9;
+    height: 1px;
+    position: relative;
+    top: -23px;
+    width: 90%;
+    margin: 0 auto;
+}
 
+
+.bos-kutu {
+    position: absolute;
+}
+.hemen-basvur-button{
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+}
+.hemen-basvur-button > button {
+    background-color: #487eba;
+    color: #ffffff;
+    z-index: 2;
+}
 
 .header-profile-photo {
     height: 30px;
@@ -179,4 +222,39 @@ strong {
 #header-search-btn {
     background-color: #43466b;
     color: #ffffff;
+}
+
+.repres-card .user-img .user-img-container{
+    position: relative;
+    width: 116px;
+    height: 116px;
+    margin:0 auto;
+}
+
+.repres-card .user-img .user-img-container img{
+    width: 100%;
+}
+
+.badge-green {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green !important;
+    margin-left: 35%;
+    margin-bottom: -15%;
+}
+
+.online-badge,
+.offline-badge {
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    font-size: 15px;
+}
+.online-badge {
+    color: green;
+}
+
+.offline-badge {
+    color: #f3f3f3;
 }
