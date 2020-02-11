@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/bootstrap4/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="https://kit.fontawesome.com/d790952cce.js"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-21">
+            <h3>Kayıt Ol</h3>
+            <div class="panel panel-default">
+                <div class="panel-body kayit-form">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="uyelik-turu">Üyelik Türü</label>
+                            <select name="" id="uyelik-turu" class="form-control">
+                                <option value="bireysel">Bireysel</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="ad-soyad">Ad Soyad <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="ad-soyad" placeholder="Ad Soyad">
+                        </div>
+                        <div class="form-group">
+                            <label for="e-posta">E-posta Adresi <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="e-posta" placeholder="E-posta Adresi">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefon">Cep Telefonu <span class="text-danger">*</span></label>
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon1"><span
+                                        class="text-danger">0</span></span>
+                                <input id="telefon" type="text" class="form-control" placeholder="555 55 55"
+                                       aria-describedby="basic-addon1">
+                            </div>
+                            <p class="text-danger">Lütfen telefonunuzu başında sıfır olmadan tuşlayınız.</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="parola">Parola <span class="text-danger">*</span></label>
+                            <input type="password" class="form-control" id="parola" placeholder="Parola">
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" class="custom-checkbox">
+                            <a href="#">Üyelik sözleşmesini</a>okudum, onaylıyorum.
+                        </div>
+                        <button class="btn btn-primary">Kayıt ol</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-21">
+            <div class="text-center">
+                <div class="panel">
+                    <div class="panel-body">
+                        <h3>Zaten üye misiniz?</h3>
+                        <p>İlan vermek için hemen üye girişi yapın.</p>
+                        <button class="btn  giris-yap-btn">
+                            <i class="fas fa-user-plus "></i>
+                            Giriş yap
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <ul class="fa-ul">
+                <li>
+                    <span class="fa-li"><i class="fas fa-check green-icon"></i></span>
+                    İlanlarınızı <strong>milyonlarca farklı ziyaretçi</strong> ile buluşturun.
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check green-icon"></i></span>
+                    Firmanıza <strong>özel web sitesi hizmeti.</strong>
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check green-icon"></i></span>
+                    <span class="text-danger">Ücretsiz</span> <strong>promosyon ürünlerine</strong> sahip olabilme,
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check green-icon"></i></span>
+                    <span class="text-danger">LÜKS</span> <strong>Konut</strong> ile dopru hedef kitleye ulaşabilme imkanı,
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check green-icon"></i></span>
+                    Öne Çıkan Firmalar arasında yer alın, <strong>Bölgenizde</strong> sizin fikriniz sorulsun!
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+<script
+        src="http://www.fizibo.com/temalar/fizibo_tema/js/jquery-3.3.1.min.js"></script>
+<script
+        src="http://www.fizibo.com/temalar/fizibo_tema/js/bootstrap.min.js"></script>
+</body>
+</html>
