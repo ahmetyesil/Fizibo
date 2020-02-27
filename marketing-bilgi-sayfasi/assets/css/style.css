@@ -1,0 +1,251 @@
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.color-purple{
+    color:#7278e9 !important;
+}
+
+.color-darkblue {
+    color: #0f365d !important;
+}
+
+.page-wrapper {
+
+}
+
+.panel {
+    border-radius: 0px;
+    border: 1px solid #eaeaea;
+}
+
+.panel .panel-heading{
+
+}
+
+.panel .panel-heading h2{
+    color: #676769;
+    font-size:23px;
+    font-weight: 700;
+}
+
+.banner-wrapper {
+    min-height: 300px;
+    width: 100%;
+    border: 1px solid #eaeaea;
+}
+
+.slogan-title {
+    width: 100%;
+    background-color: #40b5c6;
+    padding: 22px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.slogan-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+.slogan-title h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin: 5px 0;
+}
+
+.pack-item {
+    width: 25% !important;
+}
+
+.pack-item .pack-item-header {
+    text-align: center;
+    color: #676769;
+    margin-top: 15px;
+}
+
+.pack-item .pack-item-header strong {
+    display: block;
+    font-size: 23px;
+}
+
+.pack-item .pack-item-header span {
+    display: block;
+    font-size: 10px;
+}
+
+.pack-item .pack-item-content {
+    padding-top: 20px;
+}
+
+.pack-item .pack-item-content .rosette {
+    text-align: center;
+}
+
+.pack-item .pack-item-content .rosette img {
+    max-width: 100%;
+    width: 40%;
+}
+
+.pack-item .pack-item-content .pack-item-price {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pack-item .pack-item-content .pack-item-price strong {
+    font-size: 45px;
+    color: #676769;
+    position: relative;
+}
+
+.pack-item .pack-item-content .pack-item-price strong small {
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    left: -5px;
+}
+
+.pack-item .pack-item-content .pack-item-price strong span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.pack-item .pack-item-content .pack-item-price > span {
+    display: block;
+    color: #676769;
+    font-size: 13px;
+}
+
+.pack-item-features {
+    display: block;
+    margin-top: 20px;
+}
+
+.pack-item-features ul {
+    list-style: none;
+    padding: 0px;
+    margin-left: 23%;
+}
+
+.pack-item-features ul li {
+    color: #676769;
+}
+
+.pack-item-features ul li i {
+    margin-right: 4px;
+    font-size: 9px;
+    color: dodgerblue;
+}
+
+.pack-item-button{
+    margin-top: 20px;
+}
+
+.pack-item-button .btn-success {
+    background-color: #28a384;
+    border-color: #28a384;
+    font-weight: 700;
+    border-radius: 0;
+}
+
+.pack-item-button .btn-success:active,
+.pack-item-button .btn-success:hover,
+.pack-item-button .btn-success:focus {
+    background-color: #28a384;
+    border-color: #28a384;
+    font-weight: 700;
+}
+
+
+.sub-title{
+    color: #676769;
+    text-align: center;
+    padding: 15px;
+}
+
+.sub-title h2{
+    font-size:23px;
+    font-weight: 700;
+    display: block;
+}
+
+.marketing-videos{
+
+}
+
+.marketing-videos .marketing-video-item{
+    margin-bottom: 15px;
+}
+.marketing-videos .marketing-video-item.big{
+    margin-bottom: 0px;
+}
+
+.marketing-videos .marketing-video-item.big iframe{
+    width: 100%;
+    height: 340px;
+}
+
+.marketing-videos .marketing-video-item iframe{
+    width: 100%;
+    height: 160px;
+}
+
+
+.accordion-wrapper{
+
+}
+
+.accordion-wrapper .panel-group{
+
+}
+
+.accordion-wrapper .panel-group .panel{
+    border-radius: 0;
+}
+
+.accordion-wrapper .panel-group .panel .panel-heading{
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: transparent;
+    border-color: #f9f9f9;
+
+}
+
+.accordion-wrapper .panel-group .panel .panel-heading{
+    padding: 0px;
+}
+.accordion-wrapper .panel-group .panel .panel-heading h4 a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #0f365d;
+    font-size:14px;
+    display: block;
+    padding: 10px;
+}
+
+.accordion-wrapper .panel-group .panel .panel-body{
+    font-size:14px;
+    color: #676769;
+}
